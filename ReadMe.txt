@@ -29,3 +29,10 @@ Features:-
 	- Action to delete contact.
 	- Action to InActivate contact.
 
+Folder structure:-
+-Controllers:-Contains rest api and Contacts page controller
+-Models:- Contains Contact Model class.
+-App_Start:- Contains web page route config and web api route config.
+-Views:- Contains views of the controller.
+-Repository- Contains db context class file.
+-Migrations- Contains the migration details of db.
