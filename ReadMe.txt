@@ -4,8 +4,8 @@ Instructions:-
 3. Code first approach data migration steps:-
 	Please Run below commands in Package Manager Console.
 	1.Enable-Migrations  
-	2.add-migration InitialCreate  
-	3.update-database
+	2.add-migration InitialCreate or already added migration can be used in db updation.  
+	3.Update-Database or target migration using 'Update-Database ContactTableMigration' 
 4. Run the application.
 
 Note- Incase of deploying application locally as the port number might differ.Please update port no in BasePath of ContactsPage Controller.
